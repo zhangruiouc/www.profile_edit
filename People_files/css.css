@@ -1,0 +1,65 @@
+﻿@charset "utf-8";
+
+.wp-display-wrapper div,span,p,h1,h2,h3,h4,h5,h6,em,img,strong,sub,sup,tt,dd,dl,dt,form,label,table,caption,tbody, tfoot, .wp-display-wrapper thead,tr,th,td,ul,li,p,a{ margin:0;padding:0;}
+.wp-display-wrapper.cbody988{ margin:0 auto;width:988px; position:relative;}
+.wp-display-wrapper.cbody937{ margin:0 auto;width:937px; position:relative; padding-left:7px;}
+.wp-display-wrapper input,select,textarea,img{vertical-align:middle;}
+.wp-display-wrapper img{ border:0;}
+.wp-display-wrapper ul,li{list-style-type:none;}
+.wp-display-wrapper a:link,a:visited{text-decoration:none; color:#343434;}
+.wp-display-wrapper a:hover{text-decoration:underline; color:#0F6BD0;}
+.wp-display-wrapper .overhide{overflow:hidden;text-indent:-100em;}
+/*位置属性*/
+.wp-display-wrapper .marTop10{margin-top:10px;}
+.wp-display-wrapper .left{	float:left;}
+.wp-display-wrapper .right{	float:right;}
+.wp-display-wrapper .clear {clear: both;}
+.wp-display-wrapper .clearfix:after {clear: both;content: '';display: block;font-size: 0;line-height: 0;visibility: hidden;width: 0;height: 0;}
+.wp-display-wrapper .clearfix {display: +inline-block;}
+
+/*header*/
+#header{ border-bottom:1px solid #383838; height:46px; position:relative;  line-height:46px;color:#FFFFFF; }
+#header h1{font-size:12px; font-weight:normal; background:url(news.png) no-repeat 50px center; padding-left:163px;}
+#header span{ position:absolute; right:10px; top:0px;color:#9A9A9A;font-size:12px; font-weight:normal; }
+#header span a{ color:#9A9A9A; margin:0 3px;}
+
+/*wp-display-wrapper*/
+.wp-display-wrapper{ width:100%;  margin:0 auto;}
+.wp-display-wrapper .picSlideWrap{ background:#F5F8FD; border:1px solid #A9BFD6; padding-bottom:10px;padding-top:10px;}
+.wp-display-wrapper .titleh3{ height:70px; line-height:70px; text-align:center; background:url(../images/ico/dot.gif) repeat-x left bottom; width:910px; margin:0 auto; font-size:26px; color:#000;}
+.wp-display-wrapper .titleh4{text-align:center; font-size:12px; color:#000; font-weight:normal; padding:10px 0 20px 0px;}
+
+.wp-display-wrapper .imgnav{ width:788px; margin:10px auto;}
+.wp-display-wrapper .imgnav{  position:relative; margin:0 auto; width:788px;}
+.wp-display-wrapper .img{ z-index:10; width:788px; position:relative; text-align:center;}
+.wp-display-wrapper .img img{ height:480px; display:none; border:1px solid #000;}
+.wp-display-wrapper .front{ position:absolute; left:0px; top:0px; z-index:10; cursor:pointer;  width:394px; height:488px; background:url(../images/ico/blank.gif); }
+.wp-display-wrapper .front a{  position:absolute; left:20px; top:184px;display:block; background:url(../images/ico/imgSlideLeft.png) no-repeat; width:104px; height:104px; display:none;}
+.wp-display-wrapper .next{  position:absolute; right:0px; top:0px; z-index:10;cursor:pointer; width:394px; height:488px;  background:url(../images/ico/blank.gif);}
+.wp-display-wrapper .next a{  position:absolute; right:20px; top:184px; display:block; background:url(../images/ico/imgSlideRight.png) no-repeat; width:104px; height:104px; display:none;}
+
+.wp-display-wrapper .cbtn{background:#EAEBF0; position:relative; height:122px; border:1px solid #D6D9DC; margin-top:12px; }
+.wp-display-wrapper .cbtn ul{position:relative; width:10000px; height:122px;}
+.wp-display-wrapper .cbtn ul li{ float:left; padding:8px 3px 3px 3px; width:116px; height:86px; cursor:pointer; text-align:center; margin-right:20px; position:relative;}
+.wp-display-wrapper .cbtn ul li img{ width:116px; height:86px; display:block;}
+.wp-display-wrapper .cbtn ul li tt{ background:#000; color:#FFF; position:absolute; right:4px; bottom:4px; z-index:20; font-family:"宋体" ;font-size:12px; line-height:16px; padding:0 5px;}
+.wp-display-wrapper .cbtn li.hov{ background:url(../images/ico/imgHoverBg.gif) no-repeat;}
+.wp-display-wrapper .ctrl div{ clear:both;}
+.wp-display-wrapper .cSlideUl{width:690px; height:116px;overflow:hidden; position:relative; top:10px; margin:0 auto;}
+.wp-display-wrapper .picSildeLeft{cursor:pointer; position:absolute; top:32px; left:10px; z-index:9;}
+.wp-display-wrapper .picSildeRight{cursor:pointer; position:absolute; top:32px; right:10px; z-index:9;}
+.wp-display-wrapper .cbtn ul li imgtitle {
+    background: #000;
+    color: #FFF;
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    z-index: 20;
+    font-family: "宋体";
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0 5px;
+}
+
+
+
