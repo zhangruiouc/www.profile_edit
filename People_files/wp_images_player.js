@@ -33,7 +33,7 @@ $().ready(function(){
 					_imghtml2 = (_imghtml2 + '<li><img src="' + $item_img.attr("src") + '"/><imgtitle style="width: 100px;" title="' + $item_title.text() + '">' + ($item_title.text().length < 11 ? $item_title.text() : $item_title.text().substring(0, 11) + "...") + '</imgtitle><tt></tt></li>');
 				});
 				var _html = '<div class="imgnav '+_className+'"><div class="img">'+_imghtml1+' <div class="front" title="上一张"><a href="javaScript:void(0)" class="pngFix"></a></div><div class="next" title="下一张"><a href="javaScript:void(0)" class="pngFix"></a></div></div>'+
-				' <div class="cbtn"> <i class="picSildeLeft"><img src="'+url+'/_js/_portletPlugs/imagePlayer/jQueryftxhdp/images/ico/picSlideLeft.gif"/></i><i class="picSildeRight"><img src="'+url+'/_js/_portletPlugs/imagePlayer/jQueryftxhdp/images/ico/picSlideRight.gif"/></i> <div class="cSlideUl"><ul>'+_imghtml2+'</ul></div></div></div>';
+				' <div class="cbtn"> <i class="picSildeLeft"><img src="People_files/picSlideLeft.gif"/></i><i class="picSildeRight"><img src="People_files/picSlideRight.gif"/></i> <div class="cSlideUl"><ul>'+_imghtml2+'</ul></div></div></div>';
 				$item.html(_html);
 				slideGallery({
 					imgWrap:"."+_className+" .img",

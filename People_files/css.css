@@ -5,8 +5,7 @@
 .wp-display-wrapper.cbody937{ margin:0 auto;width:937px; position:relative; padding-left:7px;}
 .wp-display-wrapper input,select,textarea,img{vertical-align:middle;}
 .wp-display-wrapper img{ border:0;}
-.wp-display-wrapper ul,li{list-style-type:none;}
-.wp-display-wrapper a:link,a:visited{text-decoration:none; color:#343434;}
+.wp-display-wrapper a:link,a:visited{text-decoration:none; color:#000;}
 .wp-display-wrapper a:hover{text-decoration:underline; color:#0F6BD0;}
 .wp-display-wrapper .overhide{overflow:hidden;text-indent:-100em;}
 /*位置属性*/
